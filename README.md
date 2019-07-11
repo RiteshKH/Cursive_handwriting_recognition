@@ -12,7 +12,7 @@ All the python scripts can be independently executed. The following order needs 
 * [`image-straighten.py`](https://github.com/RiteshKH/Cursive_handwriting_recognition/blob/master/image-straighten.py) (optional) This module is used for slant-correction of the images. If the image is already straightened, no need to execute this.
 ![slant_correction](https://user-images.githubusercontent.com/38212000/61037250-4d87db00-a3e8-11e9-9552-71c26e789b7a.JPG)
 
-* [`segmentation.py`](https://github.com/RiteshKH/Cursive_handwriting_recognition/blob/master/segmentation.py) : This takes in the desired image from the folder [`sample_image`](https://github.com/RiteshKH/Cursive_handwriting_recognition/tree/master/sample_images), and performs segmentation operation. This includes word and character segmentation, stored in the [`result/new_result`](https://github.com/RiteshKH/Cursive_handwriting_recognition/tree/master/result/new_result) folder.
+* [`segmentation.py`](https://github.com/RiteshKH/Cursive_handwriting_recognition/blob/master/segmentation.py) : This takes in the desired image from the folder [`sample_image`](https://github.com/RiteshKH/Cursive_handwriting_recognition/tree/master/sample_images), and performs segmentation operation. This includes word and character segmentation, stored in the [`result/characters`](https://github.com/RiteshKH/Cursive_handwriting_recognition/tree/master/result/new_result) folder.
 
 ![word_segment](https://user-images.githubusercontent.com/38212000/61037258-51b3f880-a3e8-11e9-88ed-f519d9e4e4a0.JPG)
 ![top_contour](https://user-images.githubusercontent.com/38212000/61037267-55e01600-a3e8-11e9-9c4a-b63a7b22eef8.JPG)
